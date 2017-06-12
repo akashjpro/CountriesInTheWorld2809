@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context="com.akashjpro.countriesintheworld.ThemQuocGia">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/folder48"
+            android:id="@+id/imageButtonThemQuocKy"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:id="@+id/imgThemQuocKy"
+            android:src="@drawable/no_image" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTen"
+        android:hint="Nhập tên nước"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextThuDo"
+        android:hint="Nhập thủ đô" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextQuocTich"
+        android:hint="Nhập quốc tịch" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="Tiếp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNext" />
+
+</LinearLayout>
